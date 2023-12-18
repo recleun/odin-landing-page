@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: #1f2937;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+
+.dark-bg {
+  background-color: #1f2937;
+}
+
+.gray-bg {
+  background-color: #e5e7eb;
+}
+
+.dark-gray-bg {
+  background-color: #85878b;
+}
+
+.white-text {
+  color: #f9faf8;
+}
+
+.dark-white-text {
+  color: #e5e7eb;
+}
+
+.section-1-title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 70px 200px 90px 200px;
+  gap: 32px;
+}
+
+.left-side, .right-side {
+  height: 100%;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  gap: 16px;
+}
+
+.right-side {
+  flex: 1 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2-title {
+  margin: 50px 0;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  width: 150px;
+}
+
+.subtext {
+  text-align: center;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 18px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+
+.section-3-content {
+  width: 50%;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.section-4-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  height: 100px;
+  width: 60%;
+  background-color: #3882f6;
+}
+
+.section-4-content-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-4 button {
+  border: 2px solid white;
+}
+
+.quote-signature {
+  text-align: end;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
